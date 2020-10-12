@@ -1,20 +1,20 @@
 {
-    "name": "markdown-build",
-    "main": "package.js",
-    "version": "1.0.0",
-    "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/MicrosoftLearning/Docker-Build"
-    },
-    "dependencies": {
-      "archiver": "^2.1.0",
-      "delete": "^1.1.0",
-      "gh-release": "^3.1.1",
-      "fs-readdir-recursive": "^1.0.0",
-      "marked": "^0.3.6",
-      "ncp": "^2.0.0",
-      "minimist": "^1.2.0"
-    },
-    "configuration": {}
-  }
+  "name": "markdown-build",
+  "main": "package.js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MicrosoftLearning/Docker-Build"
+  },
+  "dependencies": {
+    "archiver": "^2.1.0",
+    "delete": "^1.1.0",
+    "fs-readdir-recursive": "^1.0.0",
+    "gh-release": "^4.0.3",
+    "marked": "^1.2.0",
+    "minimist": "^1.2.0",
+    "ncp": "^2.0.0"
+  },
+  "configuration": {}
+}
