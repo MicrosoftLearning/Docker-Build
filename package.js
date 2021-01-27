@@ -97,7 +97,7 @@ function cleanup() {
 }
 
 function buildDocx(markdownPath, baseFileName) {
-    var docxFilePath = createDocxFile(markdownPath, course ? (course + '_') : '' + baseFileName + '.docx');
+    var docxFilePath = createDocxFile(markdownPath, course ? (course + '_' + baseFileName + '.docx')) : '' + baseFileName + '.docx');
     return docxFilePath;
 }
 
